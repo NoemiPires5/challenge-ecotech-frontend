@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<!-- Botoes com animação, e não abuse da div-->
+<body>
+    <header>
+        <h1><i class="fas fa-leaf"></i>EcoTech</h1>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#beneficios"><i class="fas fa-bolt"></i> Beneficios</a></li>
+                <li><a href="#faca-parte"><i class="fas fa-paper-plane"></i> Fique por Dentro</a></li>
+                <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Essa é a seção de destaque-->
+        <section class="hero" id="home">
+            <h2>Bem-Vindo a EcoTech</h2>
+            <p>Descubra a tecnologia que está revolucionando o mundo sustentável.    
+            </p>
+        </section>
+
+        <!-- Beneficios deve dar um leve zoom, são cards que ao clicar mostra detalhes dos benefícios -->
+        <section class="beneficios" id="beneficios">
+                <article class="beneficio-card">
+                    <h3>Energia Limpa</h3>
+                    <p>Utilizamos fontes renováveis para reduzir a pegada de carbono.</p>
+                </article>
+                <article class="beneficio-card">
+                    <h3>Economia de Energia</h3>
+                    <p>Nossas soluções otimizam o consumo, economizando dinheiro e recursos.</p>
+                </article>
+                <article class="beneficio-card">
+                    <h3>Fácil Integração</h3>
+                    <p>Nossos produtos se adaptam facilmente a qualquer ambiente.</p>
+                </article>
+                <article class="beneficio-card">
+                    <h3>Suporte 24/7</h3>
+                    <p>Estamos sempre disponíveis para ajudar nossos clientes.</p>
+                </article>
+                <article class="beneficio-card">
+                    <h3>Inovação Contínua</h3>
+                    <p>Estamos constantemente desenvolvendo novas tecnologias para um futuro mais verde.</p>
+                </article>
+        </section>
+        
+        <section class="formulario" id="faca-parte">
+            <form action="#" method="post">
+                <h2>Fique por Dentro de nossos lançamentos</h2>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <button class="btn-hero"><i class="fas fa-paper-plane"></i> Enviar</button>
+                </form>
+        </section>
+    </main>
+    <footer id="contato">
+        <!-- Redes Sociais Ficticias da EcoTech -->
+        <p>&copy; 2026 EcoTech. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
